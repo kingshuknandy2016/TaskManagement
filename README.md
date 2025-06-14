@@ -51,4 +51,38 @@ In the project directory, you can run:
 - `npm run lint` - Runs ESLint to check code quality
 - `npm run preview` - Previews the production build locally
 
-## ��️ Project Structure
+## 🏗️ Project Structure
+
+## 📚 Dependencies
+
+### Main Dependencies
+
+| Package                | Version | Status | Notes                 |
+| ---------------------- | ------- | ------ | --------------------- |
+| React                  | 18.3.1  | Stable | Latest major version  |
+| React DOM              | 18.3.1  | Stable | Matches React version |
+| Material-UI            | 6.3.1   | Stable | Latest major version  |
+| Redux Toolkit          | 2.8.2   | Stable | Latest major version  |
+| React Router DOM       | 7.1.1   | Stable | Latest major version  |
+| React Hook Form        | 7.57.0  | Stable | Latest major version  |
+| UUID                   | 11.1.0  | Stable | Latest major version  |
+| Emotion (React/Styled) | 11.14.0 | Stable | Required by MUI       |
+
+### Development Dependencies
+
+| Package           | Version | Status | Notes                |
+| ----------------- | ------- | ------ | -------------------- |
+| TypeScript        | 5.8.3   | Stable | Latest major version |
+| Vite              | 6.3.5   | Stable | Latest major version |
+| ESLint            | 9.25.0  | Stable | Latest major version |
+| Tailwind CSS      | 3.4.3   | Stable | Latest major version |
+| PostCSS           | 8.5.5   | Stable | Latest major version |
+| TypeScript ESLint | 8.30.1  | Stable | Latest major version |
+| Vite React Plugin | 4.4.1   | Stable | Latest major version |
+
+### Version Management
+
+- All dependencies use caret (^) versioning
+- This allows minor version updates while maintaining compatibility
+- Major version updates require manual review
+- Regular dependency updates are recommended for security patches
